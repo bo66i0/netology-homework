@@ -1,0 +1,34 @@
+.shop-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-item__img {
+  width: 100px;
+}
+
+.shop-item__name {
+  width: 300px;
+  font-size: 25px;
+}
+
+.shop-item__color {
+  width: 100px;
+}
+
+.shop-item__price {
+  color: #ff2c18;
+  font-size: 30px;
+}
+
+.shop-item__add-btn {
+  display: block;
+  border: 1px solid #ff2c18;
+  background: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ff2c18;
+  padding: 8px 20px;
+  border-radius: 20px;
+}

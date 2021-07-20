@@ -1,0 +1,26 @@
+.App {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error-text {
+    margin: 0;
+}
+
+.services {
+    min-height: 400px;
+    position: relative;
+}
+
+.service-view {
+    min-height: 400px;
+    position: relative;
+}

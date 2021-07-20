@@ -1,0 +1,82 @@
+.watches {
+    width: 600px;
+    margin: 100px auto 0;
+}
+
+.watch-item {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.watch-item svg {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.watch-item__name {
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    top: 0;
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+
+
+
+.watch-item-arrow {
+    transform-origin: 47% 47%;
+}
+
+.watches-list {
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.st2 {
+    fill: #215C6D;
+}
+
+.st3 {
+    fill: #FFFFFF;
+}
+
+.st4 {
+    fill: #3B4A51;
+}
+
+.st5 {
+    fill: #FFFFFF;
+    stroke: #235C6D;
+    stroke-miterlimit: 10;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5cb4f9f-8e42-402f-835e-6fb54612b147" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/drag-and-drop/limitation/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag-and-drop/tracking-mouse-cursor/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drag-and-drop/trash-bin/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser/errors/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/browser/errors/js/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/browser/gallery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser/gallery/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/browser/gallery/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser/slider/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/browser/slider/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser/slider/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/browser/slider/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/background/js/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/background/js/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/draw/js/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/draw/js/draw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/star-field/js/star.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/star-field/js/star.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comet/draw/js/draw.js" beforeDir="false" afterPath="$PROJECT_DIR$/comet/draw/js/draw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comet/random/js/long-pooling.js" beforeDir="false" afterPath="$PROJECT_DIR$/comet/random/js/long-pooling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comet/random/js/pooling.js" beforeDir="false" afterPath="$PROJECT_DIR$/comet/random/js/pooling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comet/random/js/websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/comet/random/js/websocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comet/realtime/js/realtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/comet/realtime/js/realtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cors/twitter/js/twitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/cors/twitter/js/twitter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom-from-zero/comments/js/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/dom-from-zero/comments/js/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom-from-zero/plane/js/scheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/dom-from-zero/plane/js/scheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag-and-drop/limitation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/drag-and-drop/limitation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag-and-drop/tracking-mouse-cursor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/drag-and-drop/tracking-mouse-cursor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag-and-drop/trash-bin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/drag-and-drop/trash-bin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-bubbling-capturing/menu/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-bubbling-capturing/menu/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-bubbling-capturing/shop/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-bubbling-capturing/shop/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-bubbling-capturing/table/js/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-bubbling-capturing/table/js/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-object/easter-egg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/event-object/easter-egg/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-object/piano/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/event-object/piano/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-object/piano/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-object/piano/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-object/skateboard-gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/event-object/skateboard-gallery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-object/skateboard-gallery/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/event-object/skateboard-gallery/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-document-structure/tabs/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/html-document-structure/tabs/js/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-document-structure/todo-list/js/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/html-document-structure/todo-list/js/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-element-collection/dropdown-menu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-element-collection/dropdown-menu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-element-collection/dropdown-menu/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/html-element-collection/dropdown-menu/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-element-collection/drum-machine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-element-collection/drum-machine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-storage/cart/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/local-storage/cart/js/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-storage/counter/js/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/local-storage/counter/js/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local-storage/sign-in-form/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/local-storage/sign-in-form/js/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/eye/js/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/eye/js/animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/photo-booth/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/photo-booth/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/bubbles/js/click.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/bubbles/js/click.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xhr/weather-widget/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/xhr/weather-widget/js/main.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vb1C3pqI8V070IUrSscZR43rLl" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5cb4f9f-8e42-402f-835e-6fb54612b147" name="Default Changelist" comment="" />
+      <created>1626815843947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626815843947</updated>
+      <workItem from="1626815845110" duration="298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

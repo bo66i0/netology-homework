@@ -19,7 +19,7 @@ window.editor = {
     this.events[event]
       .forEach(callback => callback.call(this, data));
   }
-}
+};
 
 function getCanvasCoordinates(event) {
   var x = event.clientX - canvas.getBoundingClientRect().left;
@@ -54,7 +54,7 @@ function drawEllipse(position) {
   var h = position.y - dragStartLocation.y;
   var radius = Math.sqrt(Math.pow((dragStartLocation.x - position.x), 2) + Math.pow((dragStartLocation.y - position.y), 2));
   context.beginPath();
-  var cw = (dragStartLocation.x > position.x) ? true : false;
+  var cw = (dragStartLocation.x > position.x);
   context.ellipse(dragStartLocation.x, dragStartLocation.y, Math.abs(w), Math.abs(h), 0, 2 * Math.PI, false);
 }
 

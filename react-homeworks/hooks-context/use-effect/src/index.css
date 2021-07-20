@@ -1,0 +1,28 @@
+.list {
+
+}
+.App {
+    padding-top: 30px;
+}
+
+.details__spinner {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+}
+
+.details__top {
+    min-height: 300px;
+}
+
+.list-item {
+    padding: 10px;
+    margin-top: 0!important;
+    cursor: pointer;
+}
+
+.list-item_active {
+    background-color: #1e87f0;
+    color: #ffffff;
+}

@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.walks-registerer {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.walk-add-form {
+    display: flex;
+}
+
+.walk-add-form__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+
+.walk-add-form__col:first-child {
+    padding-left: 0;
+}
+
+.walk-add-form__col:last-child {
+    padding-right: 0;
+}
+
+.walk-add-form__col_size_s {
+    width: 20%;
+}
+
+.walk-add-form__col_size_m {
+    width: 40%;
+}
+
+.walk-add-form__input {
+    margin-top: 10px;
+    padding: 12px 8px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+.walk-add-form__submit-btn {
+    padding: 12px 8px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.walks-list {
+    margin-top: 30px;
+}
+
+.walks-list__header {
+    display: flex;
+}
+
+.walks-list__header-cell {
+    width: 33%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.walks-list-content {
+    padding: 7px 0;
+    list-style-type: none;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+
+.walks-list-content-row {
+    display: flex;
+}
+
+.walks-list-content-row:nth-child(n + 2) {
+    margin-top: 15px;
+}
+
+.walks-list-content-row__cell {
+    width: 33%;
+    text-align: center;
+    padding: 18px 15px;
+}
+
+.walks-list-content-row__btn {
+    width: 14px;
+    height: 14px;
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.walks-list-content-row__btn:nth-child(n + 2) {
+    margin-left: 15px;
+}
+
+.walks-list-content-row__btn_remove {
+    background-image: url("./img/delete.svg");
+}
+
+.walks-list-content-row__btn_edit {
+    background-image: url("./img/edit.svg");
+}
+
+.edit-info {
+    height: 30px;
+}

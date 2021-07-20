@@ -1,0 +1,21 @@
+.toolbar {
+    display: flex;
+    padding: 0;
+}
+
+.toolbar__item {
+    list-style-type: none;
+    padding: 8px;
+    border: 1px solid #333333;
+    color: #333333;
+    cursor: pointer;
+}
+
+.toolbar__item_active {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.toolbar__item:nth-child(n + 2) {
+    margin-left: 20px;
+}

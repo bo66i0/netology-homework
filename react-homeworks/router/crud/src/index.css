@@ -1,0 +1,56 @@
+.posts {
+
+}
+
+.posts-container {
+    padding-top: 30px;
+    width: 500px;
+}
+
+.posts-list {
+    padding-top: 40px;
+}
+
+.post {
+    border: 2px solid #ccc;
+    padding: 12px;
+}
+
+.post-controls {
+    padding-top: 15px;
+}
+
+.post-link {
+    display: block;
+}
+
+.post-link:nth-child(n + 2) {
+    margin-top: 25px;
+}
+
+.post-link, .post-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.post-view {
+    border: 2px solid #ccc;
+    padding: 19px 23px;
+}
+
+.post-view-controls {
+    padding-top: 20px;
+}
+
+.post-edit-view {
+    border: 2px solid #ccc;
+    padding: 12px;
+}
+
+.post-edit-view-controls {
+    padding-top: 20px;
+}
+
+.post-edit-view__textarea {
+    height: 120px;
+}

@@ -1,0 +1,43 @@
+.App {
+    padding-top: 50px;
+}
+
+.notes__header {
+    display: flex;
+    align-items: center;
+}
+
+.notes-button {
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+    outline: none;
+}
+
+.color-green {
+    color: #4CAF50;
+}
+
+.color-red {
+    color: #e74c3c;
+}
+
+.add-note-form {
+    width: 400px;
+}
+
+.note {
+    position: relative;
+}
+
+.note__close-button {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+}
+
+/*.notes-list .note:nth-child(2n), .notes-list .note:nth-child(3n) {*/
+    /*margin-left: 10px;*/
+/*}*/

@@ -69,21 +69,12 @@ showSeatsButton.addEventListener('click' , () => {
     .then(data => {
       currentData = data;
       console.log(currentData);
-      seatScheme.innerHTML = '';
+      seatScheme.innerHTML ='';
       currentAirplaneInfo.innerText = data.title;
       setButtonStatus();
       let i = 1;
       currentData.scheme.forEach(row => {
-        showSeats(data, i);
-        if (row === 4 ) {
-          const seats = Array.from(document.querySelectorAll('.seat'));
-          seats[seats.length - 6].classList.add('no-seat');
-          seats[seats.length - 6].classList.remove('seat');
-          seats[seats.length - 6].removeChild(seats[seats.length - 6].querySelector('span'));
-          seats[seats.length - 1].classList.add('no-seat');
-          seats[seats.length - 1].classList.remove('seat');
-          seats[seats.length - 1].removeChild(seats[seats.length - 1].querySelector('span'));
-        }
+        showSeats(currentData, i);
         i++;
       });
       const seats = Array.from(document.querySelectorAll('.seat'));
@@ -95,13 +86,27 @@ showSeatsButton.addEventListener('click' , () => {
 
 const init = () => {
   setButtonStatus();
+  setFooterButtonsState();
 };
 
 document.addEventListener('DOMContentLoaded', init);
 
+const isSeatExist = (data, i, letter) => {
+  if (data.scheme[i-1] === 0) {
+    return false;
+  }
+
+  if (data.scheme[i-1] === 4) {
+    return data.letters4.includes(letter);
+  }
+  if (data.scheme[i-1] === 6) return true;
+};
+
 const seatsRowModel = (data, i) => {
-  let seatClass = 'seat';
-  if (data.scheme[i - 1] === 0) seatClass = 'no-seat';
+  let seatClassList = [];
+  for (let j = 0; j < 6; j++) {
+    seatClassList[j] = isSeatExist(data, i, data.letters6[j]) ? 'seat' : 'no-seat';
+  }
   return {
     tag: 'div',
     cls: ['row', 'seating-row', 'text-centre'],
@@ -121,8 +126,8 @@ const seatsRowModel = (data, i) => {
         content: [
           {
             tag: 'div',
-            cls: ['col-xs-4', seatClass],
-             content: data.scheme[i - 1] !== 0 && {
+            cls: ['col-xs-4', seatClassList[0]],
+             content: isSeatExist(data, i, 'A') && {
               tag: 'span',
               cls: 'seat-label',
               content: data.letters6[0]
@@ -130,8 +135,8 @@ const seatsRowModel = (data, i) => {
           },
           {
             tag: 'div',
-            cls: ['col-xs-4', seatClass],
-            content: data.scheme[i - 1] !== 0 && {
+            cls: ['col-xs-4', seatClassList[1]],
+            content: isSeatExist(data, i, 'B') && {
               tag: 'span',
               cls: 'seat-label',
               content: data.letters6[1]
@@ -139,8 +144,8 @@ const seatsRowModel = (data, i) => {
           },
           {
             tag: 'div',
-            cls: ['col-xs-4', seatClass],
-            content: data.scheme[i - 1] !== 0 && {
+            cls: ['col-xs-4', seatClassList[2]],
+            content: isSeatExist(data, i, 'C') && {
               tag: 'span',
               cls: 'seat-label',
               content: data.letters6[2]
@@ -154,8 +159,8 @@ const seatsRowModel = (data, i) => {
         content: [
           {
             tag: 'div',
-            cls: ['col-xs-4', seatClass],
-            content: data.scheme[i - 1] !== 0 && {
+            cls: ['col-xs-4', seatClassList[3]],
+            content: isSeatExist(data, i, 'D') && {
               tag: 'span',
               cls: 'seat-label',
               content: data.letters6[3]
@@ -163,8 +168,8 @@ const seatsRowModel = (data, i) => {
           },
           {
             tag: 'div',
-            cls: ['col-xs-4', seatClass],
-            content: data.scheme[i - 1] !== 0 && {
+            cls: ['col-xs-4', seatClassList[4]],
+            content: isSeatExist(data, i, 'E') && {
               tag: 'span',
               cls: 'seat-label',
               content: data.letters6[4]
@@ -172,8 +177,8 @@ const seatsRowModel = (data, i) => {
           },
           {
             tag: 'div',
-            cls: ['col-xs-4', seatClass],
-            content: data.scheme[i - 1] !== 0 && {
+            cls: ['col-xs-4', seatClassList[5]],
+            content: isSeatExist(data, i, 'F') && {
               tag: 'span',
               cls: 'seat-label',
               content: data.letters6[5]
